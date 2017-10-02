@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35BB02E8ED63918ABDCD279F /* Pods_AllergyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857365AC74105DF6F05A406 /* Pods_AllergyTests.framework */; };
+		C453AE9D11536E0DB7FED14B /* Pods_Allergy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BBA6A3D10C8F65C7B7FD4D /* Pods_Allergy.framework */; };
+		E62263FA22BE2B5AD53C4311 /* Pods_AllergyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1255BF1315498B4B13E749AD /* Pods_AllergyUITests.framework */; };
 		FF71197F1F803CA800AA7FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF71197E1F803CA800AA7FAF /* AppDelegate.swift */; };
 		FF7119811F803CA800AA7FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7119801F803CA800AA7FAF /* ViewController.swift */; };
 		FF7119841F803CA800AA7FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7119821F803CA800AA7FAF /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		FF7119891F803CA800AA7FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7119871F803CA800AA7FAF /* LaunchScreen.storyboard */; };
 		FF7119941F803CA800AA7FAF /* AllergyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7119931F803CA800AA7FAF /* AllergyTests.swift */; };
 		FF71199F1F803CA800AA7FAF /* AllergyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF71199E1F803CA800AA7FAF /* AllergyUITests.swift */; };
+		FF7119AD1F80640900AA7FAF /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF7119AC1F8063FF00AA7FAF /* GothamRounded-Medium.otf */; };
+		FF7119AF1F80642100AA7FAF /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF7119AE1F80641B00AA7FAF /* GothamRounded-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0401B43D2794FF47B0D489A9 /* Pods-Allergy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Allergy/Pods-Allergy.release.xcconfig"; sourceTree = "<group>"; };
+		1255BF1315498B4B13E749AD /* Pods_AllergyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllergyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4008A2C44390A0EE0DCA344A /* Pods-AllergyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllergyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllergyTests/Pods-AllergyTests.release.xcconfig"; sourceTree = "<group>"; };
+		466CEDF723F80D83C809299B /* Pods-AllergyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllergyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllergyUITests/Pods-AllergyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7999B3C1D586FA0547FAC0F2 /* Pods-AllergyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllergyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllergyTests/Pods-AllergyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2BBA6A3D10C8F65C7B7FD4D /* Pods_Allergy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Allergy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0BF6F2E2B661AE57C62EE8 /* Pods-AllergyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllergyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllergyUITests/Pods-AllergyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6146416CA8BD6E9F227C495 /* Pods-Allergy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Allergy/Pods-Allergy.debug.xcconfig"; sourceTree = "<group>"; };
+		F857365AC74105DF6F05A406 /* Pods_AllergyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllergyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF71197B1F803CA800AA7FAF /* Allergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Allergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF71197E1F803CA800AA7FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7119801F803CA800AA7FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,8 @@
 		FF71199A1F803CA800AA7FAF /* AllergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF71199E1F803CA800AA7FAF /* AllergyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyUITests.swift; sourceTree = "<group>"; };
 		FF7119A01F803CA800AA7FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7119AC1F8063FF00AA7FAF /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		FF7119AE1F80641B00AA7FAF /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C453AE9D11536E0DB7FED14B /* Pods_Allergy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35BB02E8ED63918ABDCD279F /* Pods_AllergyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62263FA22BE2B5AD53C4311 /* Pods_AllergyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F22E440B6A29CB42FDBEA36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2BBA6A3D10C8F65C7B7FD4D /* Pods_Allergy.framework */,
+				F857365AC74105DF6F05A406 /* Pods_AllergyTests.framework */,
+				1255BF1315498B4B13E749AD /* Pods_AllergyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE16D53E18ACE8C192431B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6146416CA8BD6E9F227C495 /* Pods-Allergy.debug.xcconfig */,
+				0401B43D2794FF47B0D489A9 /* Pods-Allergy.release.xcconfig */,
+				7999B3C1D586FA0547FAC0F2 /* Pods-AllergyTests.debug.xcconfig */,
+				4008A2C44390A0EE0DCA344A /* Pods-AllergyTests.release.xcconfig */,
+				DB0BF6F2E2B661AE57C62EE8 /* Pods-AllergyUITests.debug.xcconfig */,
+				466CEDF723F80D83C809299B /* Pods-AllergyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF7119721F803CA800AA7FAF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				FF7119921F803CA800AA7FAF /* AllergyTests */,
 				FF71199D1F803CA800AA7FAF /* AllergyUITests */,
 				FF71197C1F803CA800AA7FAF /* Products */,
+				8CE16D53E18ACE8C192431B2 /* Pods */,
+				6F22E440B6A29CB42FDBEA36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +147,8 @@
 				FF7119851F803CA800AA7FAF /* Assets.xcassets */,
 				FF7119871F803CA800AA7FAF /* LaunchScreen.storyboard */,
 				FF71198A1F803CA800AA7FAF /* Info.plist */,
+				FF7119AC1F8063FF00AA7FAF /* GothamRounded-Medium.otf */,
+				FF7119AE1F80641B00AA7FAF /* GothamRounded-Bold.otf */,
 			);
 			path = Allergy;
 			sourceTree = "<group>";
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7119A31F803CA800AA7FAF /* Build configuration list for PBXNativeTarget "Allergy" */;
 			buildPhases = (
+				6A389F78C7911002589FF4F7 /* [CP] Check Pods Manifest.lock */,
 				FF7119771F803CA800AA7FAF /* Sources */,
 				FF7119781F803CA800AA7FAF /* Frameworks */,
 				FF7119791F803CA800AA7FAF /* Resources */,
+				54C311D2A857461AD6F6E974 /* [CP] Embed Pods Frameworks */,
+				28D6331176730BD3CE7E2AB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7119A61F803CA800AA7FAF /* Build configuration list for PBXNativeTarget "AllergyTests" */;
 			buildPhases = (
+				B66AE8F8379A57C77DF01E8E /* [CP] Check Pods Manifest.lock */,
 				FF71198B1F803CA800AA7FAF /* Sources */,
 				FF71198C1F803CA800AA7FAF /* Frameworks */,
 				FF71198D1F803CA800AA7FAF /* Resources */,
+				0BDFB21537371ABA5BF9B59D /* [CP] Embed Pods Frameworks */,
+				BD273C4DF820A6FD91D8EF82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7119A91F803CA800AA7FAF /* Build configuration list for PBXNativeTarget "AllergyUITests" */;
 			buildPhases = (
+				7F6A4723338F8B92A257809B /* [CP] Check Pods Manifest.lock */,
 				FF7119961F803CA800AA7FAF /* Sources */,
 				FF7119971F803CA800AA7FAF /* Frameworks */,
 				FF7119981F803CA800AA7FAF /* Resources */,
+				C07E4CB993B4EEC8267EAE95 /* [CP] Embed Pods Frameworks */,
+				0FFC5B09E6CAD7590EF3C074 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7119AF1F80642100AA7FAF /* GothamRounded-Bold.otf in Resources */,
+				FF7119AD1F80640900AA7FAF /* GothamRounded-Medium.otf in Resources */,
 				FF7119891F803CA800AA7FAF /* LaunchScreen.storyboard in Resources */,
 				FF7119861F803CA800AA7FAF /* Assets.xcassets in Resources */,
 				FF7119841F803CA800AA7FAF /* Main.storyboard in Resources */,
@@ -253,6 +310,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BDFB21537371ABA5BF9B59D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllergyTests/Pods-AllergyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FFC5B09E6CAD7590EF3C074 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllergyUITests/Pods-AllergyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28D6331176730BD3CE7E2AB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Allergy/Pods-Allergy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54C311D2A857461AD6F6E974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Allergy/Pods-Allergy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Allergy/Pods-Allergy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A389F78C7911002589FF4F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Allergy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6A4723338F8B92A257809B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllergyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66AE8F8379A57C77DF01E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllergyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD273C4DF820A6FD91D8EF82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllergyTests/Pods-AllergyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07E4CB993B4EEC8267EAE95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllergyUITests/Pods-AllergyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF7119771F803CA800AA7FAF /* Sources */ = {
@@ -424,9 +635,11 @@
 		};
 		FF7119A41F803CA800AA7FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6146416CA8BD6E9F227C495 /* Pods-Allergy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K772W4TV4V;
 				INFOPLIST_FILE = Allergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Allergy;
@@ -438,9 +651,11 @@
 		};
 		FF7119A51F803CA800AA7FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0401B43D2794FF47B0D489A9 /* Pods-Allergy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K772W4TV4V;
 				INFOPLIST_FILE = Allergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Allergy;
@@ -452,6 +667,7 @@
 		};
 		FF7119A71F803CA800AA7FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7999B3C1D586FA0547FAC0F2 /* Pods-AllergyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +684,7 @@
 		};
 		FF7119A81F803CA800AA7FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4008A2C44390A0EE0DCA344A /* Pods-AllergyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +701,7 @@
 		};
 		FF7119AA1F803CA800AA7FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0BF6F2E2B661AE57C62EE8 /* Pods-AllergyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +717,7 @@
 		};
 		FF7119AB1F803CA800AA7FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466CEDF723F80D83C809299B /* Pods-AllergyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
