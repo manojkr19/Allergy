@@ -1,0 +1,6 @@
+framework module Pods_AllergyTests {
+  umbrella header "Pods-AllergyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
